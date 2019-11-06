@@ -1,5 +1,13 @@
 # 基于fetch封装的request库
 
+# 使用
+1. 引入dist/request.js
+
+```js
+<script src="https://github.com/qinjiaw2019/jssdk/blob/master/dist/request.js"></script>
+request.request()
+```
+
 # request()
 request链式处理
 ```js
