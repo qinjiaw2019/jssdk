@@ -8,6 +8,15 @@
 request.request()
 ```
 
+2.vuecli使用
+
+```js
+const request = require('request.js')
+request.request()
+```
+
+#API 说明
+
 # request()
 request链式处理
 ```js
