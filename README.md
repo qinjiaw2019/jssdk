@@ -75,6 +75,19 @@ request.get('/file/path',{path:'/RDpcbWFpblxxaW5qaWF3YW5nXHByb2plY3RcZmlsZS1tYW5
 .then(data=>console.log(data))
 ```
 
+# getJson请求
+```js
+request.get('/file/root')
+.then(data=>console.log(data))
+```
+```js
+// 带参数
+request.get('/file/path',{path:'/RDpcbWFpblxxaW5qaWF3YW5nXHByb2plY3RcZmlsZS1tYW5hZ2Vy/data'})
+.then(res=>res.json())
+.then(data=>data.data)
+.then(data=>console.log(data))
+```
+
 # post请求
 ```js
 request.post('/file/del/file',{path:'/RDpcbWFpblxxaW5qaWF3YW5nXHByb2plY3RcZmlsZS1tYW5hZ2Vy/data'})
